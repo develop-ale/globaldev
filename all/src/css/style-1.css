@@ -141,7 +141,7 @@ a {
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 1000px;
+
     height: 60px;
 }
 
@@ -212,6 +212,11 @@ a {
     }
     html{
         max-width: 273;
+    }
+    .corpo-1{
+        height: 1050px;
+        width: 375px;
+        max-width: 375px;
     }
     .corpo-2{
         height: 1050px;
