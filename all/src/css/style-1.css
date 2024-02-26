@@ -70,6 +70,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 5s ease;
+    flex-wrap: wrap;
 }
 
 .-text {
@@ -101,6 +102,7 @@ a {
     align-items: center;
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     transition: all 5s ease;
+    flex-wrap: wrap;
 }
 
 .card-1 {
@@ -168,6 +170,7 @@ a {
     text-align: center;
     justify-items: center;
     flex-direction: column;
+    flex-basis: 20%;
 }
 .card-1 h1{
     font-family: "Montserrat", sans-serif;
@@ -196,4 +199,20 @@ a {
 .prezzo{
     font-size:x-large;
     color: rgb(201, 201, 201);
+}
+@media (max-width: 767px) {
+    .card-1{
+        flex-basis: 70%;
+    }
+    .corpo-1{
+        flex-direction: column;
+    }
+    html{
+        max-width: 273;
+    }
+    .corpo-2{
+        height: 1050px;
+        width: 375px;
+        max-width: 375px;
+    }
 }
