@@ -37,11 +37,13 @@ a {
 
 .text-nav {
     display: flex;
+
     justify-content: space-between;
-    width: 260px;
+    width: 100px;
     font-size: larger;
     transition: 0.5s all ease;
     flex-wrap: wrap;
+
 }
 
 .text-nav :hover {
@@ -71,7 +73,6 @@ a {
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 5s ease;
     flex-wrap: wrap;
 }
 
@@ -96,6 +97,7 @@ a {
     align-items: center;
     font-size: x-large;
     flex-wrap: wrap;
+
 }
 
 .corpo-2 {
@@ -225,6 +227,7 @@ a {
     }
     nav{
         flex-direction: column;
+
     }
     .text-nav{
         flex-direction: column;
