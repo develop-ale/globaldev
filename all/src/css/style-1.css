@@ -28,6 +28,7 @@ a {
     height: 100px;
     background-color: #020230;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     text-align: center;
     justify-items: center;
@@ -227,6 +228,7 @@ a {
     }
     nav{
         flex-direction: column;
+        height: 200px;
 
     }
     .text-nav{
