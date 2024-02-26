@@ -219,13 +219,11 @@ a {
     }
     .corpo-1{
         height: 1000px;
-        width: 375px;
-        max-width: 375px;
+        width: 100%;
     }
     .corpo-2{
         height: 1050px;
-        width: 375px;
-        max-width: 375px;
+        width: 100%;
     }
     nav{
         flex-direction: column;
