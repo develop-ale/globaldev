@@ -32,6 +32,7 @@ a {
     text-align: center;
     justify-items: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .text-nav {
@@ -40,6 +41,7 @@ a {
     width: 260px;
     font-size: larger;
     transition: 0.5s all ease;
+    flex-wrap: wrap;
 }
 
 .text-nav :hover {
@@ -93,6 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: x-large;
+    flex-wrap: wrap;
 }
 
 .corpo-2 {
@@ -215,4 +218,11 @@ a {
         width: 375px;
         max-width: 375px;
     }
+    nav{
+        flex-direction: column;
+    }
+    .text-nav{
+        flex-direction: column;
+    }
+
 }
