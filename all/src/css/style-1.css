@@ -65,6 +65,7 @@ a {
     justify-items: center;
     align-items: center;
     transition: 0.5s all ease-in;
+    flex-wrap: wrap;
 }
 
 .corpo-1 h1 {
@@ -98,8 +99,8 @@ a {
     justify-content: center;
     align-items: center;
     font-size: x-large;
+    flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .corpo-2 {
@@ -207,35 +208,37 @@ a {
     font-size:x-large;
     color: rgb(201, 201, 201);
 }
-@media (max-width: 767px) {
+@media (max-width: 780px) {
     .card-1{
         flex-basis: 70%;
     }
     .corpo-1{
         flex-direction: column;
     }
+    .title{
+        flex-direction: column;
+    }
     html{
         max-width: 273;
     }
     .corpo-1{
-        height: 1000px;
+        height: 840px;
         width: 100%;
     }
     .corpo-2{
-        height: 1050px;
+        height: 1200px;
         width: 100%;
     }
     nav{
         flex-direction: column;
-        height: 300px;
         justify-content: center;
     }
     .text-nav{
         flex-direction: column;
-        width: 100px;
+        width: 140px;
     }
     .img-home img{
-        width: 300px;
+        width: 320px;
     }
 
 }
