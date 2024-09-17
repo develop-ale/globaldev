@@ -196,7 +196,6 @@ a {
 .card{
     display: flex;
     justify-content: space-evenly;
-    flex-direction:;
 }
 .contact{
     padding: 10px;
@@ -258,4 +257,49 @@ a {
         width: 320px;
     }
 
+}
+.bordo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+.info-card-1{
+    height: 600px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+
+}
+
+.title-card{
+    height: 7vh;
+    width: 40vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 20px;
+    cursor:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-card-1:hover{
+    width: 255px;
+    height: 605px;
+}
+.title-card h1{
+    font-size: 4vh;
+    
 }
