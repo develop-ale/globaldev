@@ -35,15 +35,15 @@ a {
     justify-items: center;
     align-items: center;
     flex-wrap: wrap;
+    transition: 0.4s all ease;
 }
 
 .text-nav {
     display: flex;
-
     justify-content: space-between;
     width: 200px;
     font-size: larger;
-    transition: 0.5s all ease;
+    transition: 0.4s all ease;
     flex-wrap: wrap;
 
 }
@@ -52,7 +52,7 @@ a {
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.5s all ease;
+    transition: 0.4s all ease;
 }
 
 .corpo-1 {
@@ -64,7 +64,7 @@ a {
     text-align: center;
     justify-items: center;
     align-items: center;
-    transition: 0.5s all ease-in;
+    transition: 0.4s all ease;
     flex-wrap: wrap;
 }
 
@@ -77,6 +77,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     flex-wrap: wrap;
+    transition: 0.4s all ease;
 }
 
 .-text {
@@ -101,6 +102,7 @@ a {
     font-size: x-large;
     flex-direction: row;
     flex-wrap: wrap;
+    transition: 0.4s all ease;
 }
 
 .corpo-2 {
@@ -134,6 +136,7 @@ a {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    transition: 0.4s all ease;
 }
 
 .corpo-3 img {
@@ -146,7 +149,7 @@ a {
     align-items: center;
     text-align: center;
     justify-items: center;
-
+    transition: 0.4s all ease;
     height: 60px;
 }
 
@@ -158,9 +161,10 @@ a {
     text-align: center;
     justify-items: center;
     flex-direction: column;
+    transition: 0.4s all ease;
 }
 
-.corpo-3 .text-nav-giu a:hover{
+.corpo-3 .text-nav-giu a:hover {
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -168,47 +172,54 @@ a {
 
 }
 
-.corpo-3 .image img:hover{
+.corpo-3 .image img:hover {
     width: 55px;
     font-size: 20px;
 }
-.card-1{
+
+.card-1 {
     display: flex;
     justify-content: center;
     text-align: center;
     justify-items: center;
     flex-direction: column;
     flex-basis: 20%;
+    transition: 0.4s all ease;
 }
-.card-1 h1{
+
+.card-1 h1 {
     font-family: "Montserrat", sans-serif;
     color: beige;
 }
-.textcard1{
+
+.textcard1 {
     display: flex;
     flex-direction: column;
 }
-.card-1:hover{
+
+.card-1:hover {
     width: 260px;
     height: 310px;
     font-size: 17px;
 }
-.card{
+
+.card {
     display: flex;
     justify-content: space-evenly;
 }
-.contact{
+
+.contact {
     padding: 10px;
-    background-color:  rgb(58, 58, 254);
+    background-color: rgb(58, 58, 254);
     border-radius: 10px;
 }
 
-.prezzo{
-    font-size:x-large;
+.prezzo {
+    font-size: x-large;
     color: rgb(201, 201, 201);
 }
 
-.corpo-4{
+.corpo-4 {
     background-color: #020230;
     height: 100vh;
     display: flex;
@@ -219,59 +230,72 @@ a {
     transition: 0.5s all ease-in;
     flex-wrap: wrap;
 }
-.text-4{
+
+.text-4 {
     color: aliceblue;
     font-family: "Montserrat", sans-serif;
 
 }
+
 @media (max-width: 780px) {
-    .card-1{
+    .card-1 {
         flex-basis: 70%;
     }
-    .corpo-1{
+
+    .corpo-1 {
         flex-direction: column;
     }
-    .title{
+
+    .title {
         flex-direction: column;
     }
-    html{
+
+    html {
         max-width: 273;
     }
-    .corpo-1{
+
+    .corpo-1 {
         height: 840px;
         width: 100%;
     }
-    .corpo-2{
+
+    .corpo-2 {
         height: 1200px;
         width: 100%;
     }
-    nav{
+
+    nav {
         flex-direction: column;
         justify-content: center;
     }
-    .text-nav{
+
+    .text-nav {
         flex-direction: column;
         width: 140px;
     }
-    .img-home img{
+
+    .img-home img {
         width: 320px;
     }
 
 }
-.bordo{
+
+.bordo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 1000px;
+    height: 970px;
 }
-.card{
+
+.card {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 800px;
 }
-.info-card-1{
+
+.info-card-1 {
     height: 600px;
     width: 250px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -283,23 +307,30 @@ a {
 
 }
 
-.title-card{
+.title-card {
     height: 7vh;
     width: 40vh;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
     border-radius: 20px;
-    cursor:auto;
+    cursor: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.info-card-1:hover{
+.title-card h1{
+    background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat", sans-serif;
+
+}
+.info-card-1:hover {
     width: 255px;
     height: 605px;
 }
-.title-card h1{
+
+.title-card h1 {
     font-size: 4vh;
-    
 }

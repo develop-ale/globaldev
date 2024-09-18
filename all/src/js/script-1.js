@@ -1,4 +1,4 @@
-document.querySelectorAll('.text-nav').forEach(anchor => {
+document.querySelectorAll('.catalogonav').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
