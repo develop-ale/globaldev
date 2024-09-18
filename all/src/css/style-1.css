@@ -14,7 +14,7 @@ a {
 nav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .all {
 
@@ -29,8 +29,16 @@ nav{
     flex-wrap: wrap;
 }
 
-.all .container-1 nav {
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:#020230 ;
+}
+nav {
     height: 100px;
+    width: 97%;
     background-color: #020230;
     display: flex;
     flex-direction: row;
@@ -44,8 +52,8 @@ nav{
 
 .text-nav {
     display: flex;
-    justify-content: space-between;
-    width: 200px;
+    justify-content: space-around;
+    width: 300px;
     font-size: larger;
     transition: 0.4s all ease;
     flex-wrap: wrap;
@@ -223,23 +231,9 @@ nav{
     color: rgb(201, 201, 201);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .corpo-4 {
     background-color: #020230;
-    height: 100vh;
+    height: 102vh;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -323,7 +317,13 @@ nav{
     }
 
     .title {
-        flex-direction: column;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title a{
+        color: transparent;
     }
 
     html {
@@ -343,11 +343,16 @@ nav{
     nav {
         flex-direction: column;
         justify-content: center;
+        height: 200px;
     }
 
     .text-nav {
+        display: flex;
+        align-items: center;
         flex-direction: column;
-        width: 140px;
+        justify-content: space-around;
+        width: 100px;
+        height: 9ì80px;
     }
 
     .img-home img {
@@ -373,5 +378,26 @@ nav{
     }
     .bordo{
         height: 170vh;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color:#020230 ;
+    }
+    nav {
+        height: 100px;
+        width: 90%;
+        background-color: #020230;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+        transition: 0.4s all ease;
     }
 }
