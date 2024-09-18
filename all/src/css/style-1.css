@@ -11,7 +11,11 @@ a {
     text-decoration: none;
 }
 
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .all {
 
     flex-direction: column;
@@ -219,6 +223,20 @@ a {
     color: rgb(201, 201, 201);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .corpo-4 {
     background-color: #020230;
     height: 100vh;
@@ -235,6 +253,64 @@ a {
     color: aliceblue;
     font-family: "Montserrat", sans-serif;
 
+}
+
+
+.bordo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 970px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+
+.info-card-1 {
+    height: 600px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+
+}
+
+.title-card {
+    height: 7vh;
+    width: 40vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 20px;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card h1 {
+    background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.info-card-1:hover {
+    width: 255px;
+    height: 605px;
+}
+
+.title-card h1 {
+    font-size: 4vh;
 }
 
 @media (max-width: 780px) {
@@ -278,59 +354,24 @@ a {
         width: 320px;
     }
 
-}
-
-.bordo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    height: 970px;
-}
-
-.card {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 800px;
-}
-
-.info-card-1 {
-    height: 600px;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s all ease-in;
-
-}
-
-.title-card {
-    height: 7vh;
-    width: 40vh;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    border-radius: 20px;
-    cursor: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.title-card h1{
-    background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Montserrat", sans-serif;
-
-}
-.info-card-1:hover {
-    width: 255px;
-    height: 605px;
-}
-
-.title-card h1 {
-    font-size: 4vh;
+    .corpo-4{
+        width: 100%;
+    }
+    .bordo{
+        width: 100%;
+    }
+    .title-card{
+        width: 30vh;
+    }
+    .card{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .corpo-4{
+        height: 180vh;
+    }
+    .bordo{
+        height: 170vh;
+    }
 }
