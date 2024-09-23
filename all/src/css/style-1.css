@@ -283,7 +283,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
-    border-radius: 20px;
+
     cursor: auto;
     display: flex;
     justify-content: center;
@@ -300,7 +300,7 @@ nav {
 
 .info-card-1:hover {
     width: 255px;
-    height: 605px;
+    height: 550px;
 }
 
 .title-card h1 {
