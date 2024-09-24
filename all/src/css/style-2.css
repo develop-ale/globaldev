@@ -4,16 +4,24 @@
 
 
 p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
+
 /* Stile per il popup dei cookie */
 .cookie-consent-popup {
     position: fixed;
     bottom: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 100%);
     background-color: #ffffff8c;
     padding: 20px;
     border-radius: 10px;
@@ -23,7 +31,7 @@ p {
     justify-content: space-around;
     flex-direction: column;
     width: 700px;
-    height: 200px;
+    height: 250px;
     z-index: 1001;
     font-family: Arial, sans-serif;
 }
@@ -45,6 +53,7 @@ p {
 #acceptCookies {
     background-color: #28a745;
     color: white;
+    width: 700px;
 }
 
 #rejectCookies {
@@ -68,4 +77,12 @@ p {
 .content {
     pointer-events: none;
     opacity: 0.5;
+}
+
+.pulse {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    justify-content: space-between;
+
 }
