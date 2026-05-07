@@ -65,6 +65,7 @@ nav {
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     transition: 0.4s all ease;
 }
 
@@ -88,6 +89,7 @@ nav {
     font-size: xxx-large;
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     flex-wrap: wrap;
     transition: 0.4s all ease;
@@ -180,6 +182,7 @@ nav {
 .corpo-3 .text-nav-giu a:hover {
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
 
@@ -294,6 +297,7 @@ nav {
 .title-card h1 {
     background: linear-gradient(325deg, rgba(116, 173, 164, 1) 0%, rgba(70, 88, 172, 1) 50%, rgba(70, 155, 172, 1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Montserrat", sans-serif;
 
