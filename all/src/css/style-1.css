@@ -27,6 +27,7 @@ nav{
     flex-direction: column;
     transition: 0.5s all ease-in;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .nav{
